@@ -96,15 +96,10 @@
     </modules>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>${snapshotRepository.id}</id>
-            <name>${snapshotRepository.name}</name>
-            <url>${snapshotRepository.url}</url>
-        </snapshotRepository>
         <repository>
-            <id>${releaseRepository.id}</id>
-            <name>${releaseRepository.name}</name>
-            <url>${releaseRepository.url}</url>
+            <id>x2x-x2x</id>
+            <name>x2x-x2x</name>
+            <url>https://x2x-620925835413.d.codeartifact.eu-south-1.amazonaws.com/maven/x2x/</url>
         </repository>
     </distributionManagement>
 
